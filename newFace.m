@@ -50,3 +50,8 @@ colormap default
 imagesc(reshape(fea(closestFace,:), [h,w]))
 
 %%
+%finding the face from the cropped Images 
+num = gnd(closestFace)
+filename = sprintf('%d.jpg',num);
+    A = imread(filename); 
+figure,imshow(A);
