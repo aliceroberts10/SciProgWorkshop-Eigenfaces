@@ -2,7 +2,7 @@
 % Make sure you have run the file "eigenfaces_svd.m"
 % before running this file
 
-%Set the number of eigenfaces to use for the reconstruction (100)
+%Set the number of eigenfaces to use for the reconstruction (150 as recommended by wikipedia)
 n_eigen = 150;
 
 % mean image vector from the database
