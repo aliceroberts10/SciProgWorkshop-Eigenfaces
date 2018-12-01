@@ -17,9 +17,11 @@ Step 4:
 First run the file called "eigenfaces_svd.m" 
 
 Step 5: 
+Now, run file called "newFace.m"
+
+Step 6: 
 Now it's your turn. Take a photo of yourself, upload it to the same folder. 
-Now open the file called "newFace.m". 
-In line 16 of the file edit the code to include the name of the photo you just took. 
+In file "newFace.m" in line 16, edit the code to include the name of the photo you just took. 
 Run this file and view the image that the code provides. 
 Behold, a photo from the database that is closest to yours! 
 
