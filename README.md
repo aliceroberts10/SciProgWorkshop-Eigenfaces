@@ -20,8 +20,11 @@ Step 5:
 Now, run file called "newFace.m"
 
 Step 6: 
-Now it's your turn. Take a photo of yourself, upload it to the same folder. 
-In file "newFace.m" in line 16, edit the code to include the name of the photo you just took. 
+Now it's your turn. Take a photo of yourself, make sure that the photo is framing your face only and is centered.
+
+Step 7:
+Upload the image into the folder.
+In file "newFace.m" in line 22, edit the code to include the name of the photo you just took. 
 Run this file and view the image that the code provides. 
 Behold, a photo from the database that is closest to yours! 
 
