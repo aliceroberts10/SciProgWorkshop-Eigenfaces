@@ -21,7 +21,7 @@ x=bsxfun(@minus, x, mean(x,1));
 eig0 = reshape(mean(x,1), [h,w]);
 figure,subplot(4,4,1)
 imagesc(eig0)
-colormap spring
+colormap parula
 for i = 1:15
     subplot(4,4,i+1)
     imagesc(reshape(RIGHT(:,i),h,w))
