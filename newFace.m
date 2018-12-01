@@ -19,7 +19,7 @@ end
 Wd = RIGHT(:,1:n_eigen)'*G;
 
 %getting my face 
-myFace = imread('Kristenblack.jpg');                     
+myFace = imread('duck.jpg');                     
 myFace = rgb2gray(myFace);  % convert to grayscale
 myFace = double(myFace);
 %resizing the image 
